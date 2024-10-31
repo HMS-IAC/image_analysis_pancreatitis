@@ -9,7 +9,7 @@ def rng = new Random()
 if (seed >= 0)
     rng.setSeed(seed)
 
-double sidelength = 200 // side-length of square ROI 
+double sidelength = 200 // side-length of square ROI: 200 for edema, 500 for any necrosis
 
 selectObjectsByClassification("Exocrine");
 def selected = getSelectedObject()  
