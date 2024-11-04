@@ -43,7 +43,7 @@ For samples 14550 and 25868, tissue segmentation from the preveous edema segment
 **export_necrosis.groovy** exports area-values of necrosis as a .csv file  
 
 ### 11571
-**exocrine11571.json** was trained on samples of batch 11571. Exocrine tissue was segmented within the previous exocrine bounding box (excluding previous endocrine tissue). 
-**new_exocrine.groovy** subtracts white background segmented with **background.json** from exocrine segments. 
-**necrosis2.json** was trained on 11571 and applied to segment necrosis within the exocrine region (**segment_necrosis.groovy**). 
+**exocrine11571.json** was trained on samples of batch 11571. Exocrine tissue was segmented within the previous exocrine bounding box (excluding previous endocrine tissue).  
+**new_exocrine.groovy** subtracts white background segmented with **background.json** from exocrine segments.  
+**necrosis2.json** was trained on 11571 and applied to segment necrosis within the exocrine region (**segment_necrosis.groovy**).  
 **export_necrosis.groovy** exports areas-values of necrosis as a .csv file  
