@@ -31,7 +31,7 @@ Contains .groovy files to randomly select a square tissue area within a bounding
 ## edema 
 **refine_exocrine.groovy** segments edema within exocrine segments  
 **export_edema_experimental.groovy** generates mask images (png) of exocrine tissue and segmented edema  
-**tile_image.py** reads png images and generates non-overlapping tiles of them (saved as images in a specified output folder)
+**tile_image.py** reads png images and generates non-overlapping tiles of them (saved as images in a specified output folder)  
 **edema_to_graph_downsampled.py** counts the number of branchpoints for each sample 
 
 ## necrosis 
