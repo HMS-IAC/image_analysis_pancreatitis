@@ -1,3 +1,8 @@
+
+
+[![DOI](https://zenodo.org/badge/880915823.svg)](https://doi.org/10.5281/zenodo.14894989)
+
+
 # Image analysis of pancreatitis 
 ## Prerequisites
 Python, conda, QuPath
